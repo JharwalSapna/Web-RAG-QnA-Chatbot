@@ -1,0 +1,16 @@
+# Install dependencies
+pip install langchain-cli
+pip install langchain-core langchain-openai langchain-exa
+
+
+
+# Add dependencies:
+ls
+poetry add new .
+poetry add langchain-core
+poetry add langchain-openai
+poetry add langchain-exa
+
+
+# Run Langchain Serve app:
+poetry run langchain serve
